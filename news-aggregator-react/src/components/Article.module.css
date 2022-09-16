@@ -1,0 +1,22 @@
+.container {
+    margin: auto;
+    width: 800px;
+    height: 50px;
+}
+
+.title {
+    height: 50px;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Helvetica", "Courier New", "Times";
+
+}
+
+.blurb {
+    height: 50px;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Helvetica", "Courier New", "Times";
+}
