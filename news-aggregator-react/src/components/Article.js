@@ -3,9 +3,23 @@ import styles from './Article.module.css'
 
 function Article(props) {
     return (
-        <div className={styles.container}>
-            <div className={styles.title}>{props.title}</div>
-            <div className={styles.blurb}>Blurb Blurb Blurb Blurb Blurb</div>
+        <div className={styles.containerRow}>
+            <a href={props.linkLeft} className={styles.containerLeft}>
+                <div className={styles.title}>{props.titleLeft}</div>
+                <img
+                    className={styles.image}
+                    src={props.imageLeft}
+                    alt="new"
+                />
+            </a>
+            <a href={props.linkRight} className={styles.containerRight}>
+                <div className={styles.title}>{props.titleRight}</div>
+                <img
+                    className={styles.image}
+                    src={props.imageRight}
+                    alt="new"
+                />
+            </a>
         </div>
     )
 }

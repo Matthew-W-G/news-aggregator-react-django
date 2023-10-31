@@ -7,6 +7,7 @@ class NewsPiece(models.Model):
     url = models.CharField(max_length=100, default="")
     date = models.CharField(max_length=100, default="")
     category = models.CharField(max_length=100, default="")
+    image = models.CharField(max_length=100, null=True)
 
     def __str__(self):
         return self.title

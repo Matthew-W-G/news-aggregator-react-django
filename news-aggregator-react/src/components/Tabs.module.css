@@ -1,12 +1,17 @@
 .background {
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     height: 50px;
     line-height: 50px;
     text-align: center;
 }
 
+hr{
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+}
+
 .category {
-    color: rgb(39, 43, 40);
+    color: white;
     background-color: inherit;
     display: inline-block;
     vertical-align: middle;
@@ -14,7 +19,10 @@
     font-family: "Helvetica", "Courier New", "Times";
     font-weight: bold;
     padding: 0px 22px;
-    border: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     font-size: 16px;
 }
 

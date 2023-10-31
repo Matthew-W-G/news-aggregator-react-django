@@ -10,4 +10,4 @@ class NewsPieceSerializer(serializers.ModelSerializer):
     # create a meta class
     class Meta:
         model = NewsPiece
-        fields = ('title', 'blurb', 'source', 'url', 'date','category')
+        fields = ('title', 'blurb', 'source', 'url', 'date','category', 'image')
